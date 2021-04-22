@@ -1,0 +1,14 @@
+{
+  "name": "project-trillo",
+  "version": "1.0.0",
+  "description": "connect my sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "author": "timmy",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
